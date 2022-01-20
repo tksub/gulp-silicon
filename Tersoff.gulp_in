@@ -1,0 +1,30 @@
+phonon nofreq kfull
+vectors
+        5.43    0.00    0.00
+        0.00    5.43    0.00
+        0.00    0.00    5.43
+fractional
+        Si      core    0.00    0.00    0.00
+space
+        227
+species
+        Si      core    0.0
+botwobody
+Si core Si core 1830.8 471.18 2.4799 1.7322 2.70 3.00
+borepulsive
+Si core Si core 0.0 3 0.78734 1.7322 2.70 3.00
+boattractive theta
+Si core Si core 0.0000010999 3 0.78734 1.7322 100390.0 16.218 -0.59826 2.70 3.00
+
+
+#sw2
+#Si Si 15.3 2.0951 42.89462  5.22918
+#sw3
+#Si Si Si 45.51 70.53 3.49 3.49 5.23 5.23 5.23
+shrink
+1 1 1 
+dispersion 3 50
+0.0 0.0 0.0 to 1.0 1.0 0.0
+1.0 0.0 0.0 to 0.0 0.0 0.0 
+0.0 0.0 0.0 to 0.5 0.5 0.5
+output phonon si_tersoff
